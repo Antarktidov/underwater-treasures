@@ -7,6 +7,8 @@ import net.minecraft.tags.BiomeTags;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.tags.FluidTags;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.levelgen.Heightmap;
@@ -50,6 +52,7 @@ public final class UnderwaterTreasureSpawner {
 		for (Level level : event.getServer().getAllLevels()) {
 			for (Player player : level.players()) {
 				trySpawn(level, player);
+				keepTreasuresOnFloor(level, player);
 			}
 		}
 	}
@@ -72,10 +75,42 @@ public final class UnderwaterTreasureSpawner {
 			}
 
 			Item item = TREASURES[random.nextInt(TREASURES.length)].get();
-			ItemEntity treasure = new ItemEntity(level, x + 0.5, y, z + 0.5, new net.minecraft.world.item.ItemStack(item));
+			ItemEntity treasure = new ItemEntity(level, x + 0.5, y, z + 0.5, new ItemStack(item));
+			treasure.setNoGravity(true);
+			treasure.setDeltaMovement(0, 0, 0);
 			level.addFreshEntity(treasure);
 			return;
 		}
+	}
+
+	private static void keepTreasuresOnFloor(Level level, Player player) {
+		AABB searchArea = new AABB(player.blockPosition()).inflate(SEARCH_RADIUS + MINIMUM_DISTANCE);
+		for (ItemEntity treasure : level.getEntitiesOfClass(ItemEntity.class, searchArea)) {
+			if (!isTreasure(treasure.getItem())) {
+				continue;
+			}
+
+			int x = treasure.getBlockX();
+			int z = treasure.getBlockZ();
+			int floorY = level.getHeight(Heightmap.Types.OCEAN_FLOOR, x, z) - 1;
+			BlockPos floor = new BlockPos(x, floorY, z);
+			if (!isValidLocation(level, floor)) {
+				continue;
+			}
+
+			treasure.setNoGravity(true);
+			treasure.setDeltaMovement(0, 0, 0);
+			treasure.setPos(x + 0.5, floorY + 1.0, z + 0.5);
+		}
+	}
+
+	private static boolean isTreasure(ItemStack stack) {
+		for (DeferredItem<?> treasure : TREASURES) {
+			if (stack.is(treasure.get())) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 	private static boolean isValidLocation(Level level, BlockPos floor) {
@@ -86,6 +121,6 @@ public final class UnderwaterTreasureSpawner {
 		BlockPos water = floor.above();
 		return !level.getBlockState(floor).isAir()
 				&& level.getFluidState(water).isSource()
-				&& level.getFluidState(water).is(net.minecraft.tags.FluidTags.WATER);
+				&& level.getFluidState(water).is(FluidTags.WATER);
 	}
 }
