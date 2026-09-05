@@ -1,0 +1,7 @@
+{
+  "parent": "underwatertreasures:custom/goldcoin2",
+  "textures": {
+    "0": "underwatertreasures:block/texture",
+    "particle": "underwatertreasures:item/texture"
+  }
+}

@@ -36,6 +36,8 @@ import java.lang.invoke.MethodHandle;
 import it.unimi.dsi.fastutil.ints.IntObjectPair;
 import it.unimi.dsi.fastutil.ints.IntObjectImmutablePair;
 
+import com.antarktidov.underwatertreasures.init.UnderwatertreasuresModItems;
+
 @Mod("underwatertreasures")
 public class UnderwatertreasuresMod {
 	public static final Logger LOGGER = LogManager.getLogger(UnderwatertreasuresMod.class);
@@ -46,6 +48,7 @@ public class UnderwatertreasuresMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		UnderwatertreasuresModItems.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
