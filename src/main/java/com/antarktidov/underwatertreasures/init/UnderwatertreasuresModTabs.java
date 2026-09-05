@@ -20,5 +20,6 @@ public class UnderwatertreasuresModTabs {
 				tabData.accept(UnderwatertreasuresModItems.GOLDEN_COIN.get());
 				tabData.accept(UnderwatertreasuresModItems.SILVER_COIN.get());
 				tabData.accept(UnderwatertreasuresModItems.WHITE_BUSY.get());
+				tabData.accept(UnderwatertreasuresModItems.CORAL_BUSY.get());
 			}).build());
 }

@@ -53,6 +53,20 @@
           "src/main/resources/assets/underwatertreasures/models/item/white_busy.json"
         ]
       }
+    },
+    {
+      "name": "CoralBusy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coral_busy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underwatertreasures/items/coral_busy.json",
+          "src/main/java/com/antarktidov/underwatertreasures/item/CoralBusyItem.java",
+          "src/main/resources/assets/underwatertreasures/models/item/coral_busy.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -64,7 +78,8 @@
       "item.underwatertreasures.golden_coin": "Golden Coin",
       "item.underwatertreasures.silver_coin": "Silver Coin",
       "item_group.underwatertreasures.treasures": "Treasures",
-      "item.underwatertreasures.white_busy": "White Busy"
+      "item.underwatertreasures.white_busy": "White Busy",
+      "item.underwatertreasures.coral_busy": "Coral Busy"
     }
   },
   "metadata": {

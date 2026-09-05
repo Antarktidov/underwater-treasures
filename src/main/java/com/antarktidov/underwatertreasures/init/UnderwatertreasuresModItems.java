@@ -13,6 +13,7 @@ import java.util.function.Function;
 import com.antarktidov.underwatertreasures.item.WhiteBusyItem;
 import com.antarktidov.underwatertreasures.item.SilverCoinItem;
 import com.antarktidov.underwatertreasures.item.GoldenCoinItem;
+import com.antarktidov.underwatertreasures.item.CoralBusyItem;
 import com.antarktidov.underwatertreasures.UnderwatertreasuresMod;
 
 public class UnderwatertreasuresModItems {
@@ -20,10 +21,12 @@ public class UnderwatertreasuresModItems {
 	public static final DeferredItem<Item> GOLDEN_COIN;
 	public static final DeferredItem<Item> SILVER_COIN;
 	public static final DeferredItem<Item> WHITE_BUSY;
+	public static final DeferredItem<Item> CORAL_BUSY;
 	static {
 		GOLDEN_COIN = register("golden_coin", GoldenCoinItem::new);
 		SILVER_COIN = register("silver_coin", SilverCoinItem::new);
 		WHITE_BUSY = register("white_busy", WhiteBusyItem::new);
+		CORAL_BUSY = register("coral_busy", CoralBusyItem::new);
 	}
 
 	// Start of user code block custom items
