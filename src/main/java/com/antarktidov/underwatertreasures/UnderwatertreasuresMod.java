@@ -36,6 +36,7 @@ import java.lang.invoke.MethodHandle;
 import it.unimi.dsi.fastutil.ints.IntObjectPair;
 import it.unimi.dsi.fastutil.ints.IntObjectImmutablePair;
 
+import com.antarktidov.underwatertreasures.init.UnderwatertreasuresModTabs;
 import com.antarktidov.underwatertreasures.init.UnderwatertreasuresModItems;
 
 @Mod("underwatertreasures")
@@ -49,6 +50,7 @@ public class UnderwatertreasuresMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 		UnderwatertreasuresModItems.REGISTRY.register(modEventBus);
+		UnderwatertreasuresModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

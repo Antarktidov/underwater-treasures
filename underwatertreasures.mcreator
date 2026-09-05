@@ -29,6 +29,16 @@
           "src/main/resources/assets/underwatertreasures/items/silver_coin.json"
         ]
       }
+    },
+    {
+      "name": "Treasures",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treasures",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -38,12 +48,14 @@
   "language_map": {
     "en_us": {
       "item.underwatertreasures.golden_coin": "Golden Coin",
-      "item.underwatertreasures.silver_coin": "Silver Coin"
+      "item.underwatertreasures.silver_coin": "Silver Coin",
+      "item_group.underwatertreasures.treasures": "Treasures"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/com/antarktidov/underwatertreasures/init/UnderwatertreasuresModItems.java",
+      "src/main/java/com/antarktidov/underwatertreasures/init/UnderwatertreasuresModTabs.java",
       "src/main/java/com/antarktidov/underwatertreasures/UnderwatertreasuresMod.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml"
