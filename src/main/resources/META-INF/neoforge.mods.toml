@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="MIT"
 
 [[mods]]
 modId="underwatertreasures"
-version="1.0.0"
+version="1.0.1"
 displayName="Underwater Treasures"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="MCreator"
+credits="Created using mod maker MCreator - https://mcreator.net/about traditional code editing and vibe-coding."
+authors="Antarktidov"
+description = "Adds underwater treasures to game."
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
