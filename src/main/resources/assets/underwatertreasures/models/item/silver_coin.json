@@ -1,0 +1,7 @@
+{
+  "parent": "underwatertreasures:custom/silvercoin2",
+  "textures": {
+    "1": "underwatertreasures:block/silver_coin",
+    "particle": "underwatertreasures:item/silver_coin"
+  }
+}
