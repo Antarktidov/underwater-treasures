@@ -5,7 +5,7 @@
     "renderType": 1,
     "texture": "silver_coin",
     "customModelName": "silvercoin2:default",
-    "guiTexture": "",
+    "guiTexture": "silver_coin2d",
     "customProperties": {},
     "states": [],
     "animations": [],

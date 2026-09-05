@@ -23,6 +23,7 @@
       "registry_name": "silver_coin",
       "metadata": {
         "files": [
+          "src/main/resources/assets/underwatertreasures/models/item/silver_coin_gui.json",
           "src/main/java/com/antarktidov/underwatertreasures/item/SilverCoinItem.java",
           "src/main/resources/assets/underwatertreasures/models/item/silver_coin.json",
           "src/main/resources/assets/underwatertreasures/items/silver_coin.json"
