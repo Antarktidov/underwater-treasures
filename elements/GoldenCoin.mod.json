@@ -5,7 +5,7 @@
     "renderType": 1,
     "texture": "texture",
     "customModelName": "goldcoin2:default",
-    "guiTexture": "",
+    "guiTexture": "golden_coin",
     "customProperties": {},
     "states": [],
     "animations": [],

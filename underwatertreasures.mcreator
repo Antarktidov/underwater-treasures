@@ -10,6 +10,7 @@
         "files": [
           "src/main/resources/assets/underwatertreasures/items/golden_coin.json",
           "src/main/resources/assets/underwatertreasures/models/item/golden_coin.json",
+          "src/main/resources/assets/underwatertreasures/models/item/golden_coin_gui.json",
           "src/main/java/com/antarktidov/underwatertreasures/item/GoldenCoinItem.java"
         ]
       }
