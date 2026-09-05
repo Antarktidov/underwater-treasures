@@ -48,6 +48,7 @@
       "registry_name": "white_busy",
       "metadata": {
         "files": [
+          "src/main/resources/assets/underwatertreasures/models/item/white_busy_gui.json",
           "src/main/resources/assets/underwatertreasures/items/white_busy.json",
           "src/main/java/com/antarktidov/underwatertreasures/item/WhiteBusyItem.java",
           "src/main/resources/assets/underwatertreasures/models/item/white_busy.json"
@@ -64,7 +65,8 @@
         "files": [
           "src/main/resources/assets/underwatertreasures/items/coral_busy.json",
           "src/main/java/com/antarktidov/underwatertreasures/item/CoralBusyItem.java",
-          "src/main/resources/assets/underwatertreasures/models/item/coral_busy.json"
+          "src/main/resources/assets/underwatertreasures/models/item/coral_busy.json",
+          "src/main/resources/assets/underwatertreasures/models/item/coral_busy_gui.json"
         ]
       }
     }

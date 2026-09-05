@@ -5,7 +5,7 @@
     "renderType": 1,
     "texture": "coral_busy",
     "customModelName": "coral_busy:default",
-    "guiTexture": "",
+    "guiTexture": "coral",
     "customProperties": {},
     "states": [],
     "animations": [],
