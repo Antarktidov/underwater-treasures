@@ -5,7 +5,7 @@
     "renderType": 1,
     "texture": "texture3",
     "customModelName": "pirate_flag:default",
-    "guiTexture": "",
+    "guiTexture": "pirate_flag",
     "customProperties": {},
     "states": [],
     "animations": [],

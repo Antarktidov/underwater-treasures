@@ -148,6 +148,7 @@
         "files": [
           "src/main/java/com/antarktidov/underwatertreasures/item/PirateFlagItem.java",
           "src/main/resources/assets/underwatertreasures/models/item/pirate_flag.json",
+          "src/main/resources/assets/underwatertreasures/models/item/pirate_flag_gui.json",
           "src/main/resources/assets/underwatertreasures/items/pirate_flag.json"
         ]
       }
@@ -175,6 +176,78 @@
           "src/main/resources/data/underwatertreasures/recipe/gold_nugget_from_gold_coin.json"
         ]
       }
+    },
+    {
+      "name": "Trade1",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underwatertreasures/villager_trade/farmer/1/trade_1_0.json"
+        ]
+      }
+    },
+    {
+      "name": "Trade2",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underwatertreasures/villager_trade/farmer/1/trade_2_0.json"
+        ]
+      }
+    },
+    {
+      "name": "Trade3",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underwatertreasures/villager_trade/farmer/1/trade_3_0.json"
+        ]
+      }
+    },
+    {
+      "name": "Trade4",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underwatertreasures/villager_trade/farmer/1/trade_4_0.json"
+        ]
+      }
+    },
+    {
+      "name": "Trade5",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underwatertreasures/villager_trade/farmer/1/trade_5_0.json"
+        ]
+      }
+    },
+    {
+      "name": "Trade6",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underwatertreasures/villager_trade/armorer/1/trade_6_0.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -182,6 +255,16 @@
   "tag_elements": {
     "PAINTING_VARIANTS:minecraft:placeable": [
       "~PirateFlagPainting@CUSTOM:PirateFlagPainting"
+    ],
+    "VILLAGER_TRADES:minecraft:farmer/level_1": [
+      "~Trade5@trade_5_0",
+      "~Trade3@trade_3_0",
+      "~Trade4@trade_4_0",
+      "~Trade2@trade_2_0",
+      "~Trade1@trade_1_0"
+    ],
+    "VILLAGER_TRADES:minecraft:armorer/level_1": [
+      "~Trade6@trade_6_0"
     ]
   },
   "tab_element_order": {},
@@ -190,15 +273,31 @@
       "item.underwatertreasures.golden_coin": "Golden Coin",
       "item.underwatertreasures.silver_coin": "Silver Coin",
       "item_group.underwatertreasures.treasures": "Treasures",
-      "item.underwatertreasures.white_busy": "White Busy",
-      "item.underwatertreasures.coral_busy": "Coral Busy",
-      "item.underwatertreasures.coral_star": "Coral Star",
+      "item.underwatertreasures.white_busy": "Pearl beads",
+      "item.underwatertreasures.coral_busy": "Coral beads",
+      "item.underwatertreasures.coral_star": "Pink Star",
       "item.underwatertreasures.yellow_star": "Yellow Star",
-      "item.underwatertreasures.coral_star_2": "Coral Star 2",
+      "item.underwatertreasures.coral_star_2": "Pinl Star 2",
       "item.underwatertreasures.yellow_star_2": "Yellow Star 2",
       "painting.underwatertreasures.pirate_flag_painting.title": "Pirate Flag Painting",
       "painting.underwatertreasures.pirate_flag_painting.author": "Antarktidov",
-      "item.underwatertreasures.pirate_flag": "Pirate Flag"
+      "item.underwatertreasures.pirate_flag": "Pirate Flag",
+      "": ""
+    },
+    "ru_ru": {
+      "item.underwatertreasures.golden_coin": "Зотолая монета",
+      "item.underwatertreasures.silver_coin": "Серебряная монета",
+      "item_group.underwatertreasures.treasures": "Сокровища",
+      "item.underwatertreasures.white_busy": "Жемчужные бусы",
+      "item.underwatertreasures.coral_busy": "Коралловые бусы",
+      "item.underwatertreasures.coral_star": "Розовая морская звезда",
+      "item.underwatertreasures.yellow_star": "Жёлтая морская звезда",
+      "item.underwatertreasures.coral_star_2": "Розовая морская звезда 2",
+      "item.underwatertreasures.yellow_star_2": "Жёлтая морская звезда 2",
+      "painting.underwatertreasures.pirate_flag_painting.title": "Картина «Пиратский флаг»",
+      "painting.underwatertreasures.pirate_flag_painting.author": "Antarktidov",
+      "item.underwatertreasures.pirate_flag": "Пиратский флаг",
+      "": ""
     }
   },
   "metadata": {

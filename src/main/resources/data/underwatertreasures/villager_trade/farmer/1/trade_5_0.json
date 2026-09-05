@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "underwatertreasures:silver_coin",
+    "count": 25
+  },
+  "gives": {
+    "id": "minecraft:diamond"
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

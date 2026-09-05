@@ -1,0 +1,21 @@
+{
+  "_fv": 89,
+  "_type": "villagertrade",
+  "definition": {
+    "villagerProfession": "FARMER",
+    "trades": [
+      {
+        "price1": "CUSTOM:GoldenCoin",
+        "countPrice1": 1,
+        "price2": "",
+        "countPrice2": 5,
+        "offer": "CUSTOM:SilverCoin",
+        "countOffer": 5,
+        "level": 1,
+        "maxTrades": 10,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      }
+    ]
+  }
+}
