@@ -137,6 +137,20 @@
           "src/main/resources/data/underwatertreasures/painting_variant/pirate_flag_painting.json"
         ]
       }
+    },
+    {
+      "name": "PirateFlag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pirate_flag",
+      "metadata": {
+        "files": [
+          "src/main/java/com/antarktidov/underwatertreasures/item/PirateFlagItem.java",
+          "src/main/resources/assets/underwatertreasures/models/item/pirate_flag.json",
+          "src/main/resources/assets/underwatertreasures/items/pirate_flag.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -159,7 +173,8 @@
       "item.underwatertreasures.coral_star_2": "Coral Star 2",
       "item.underwatertreasures.yellow_star_2": "Yellow Star 2",
       "painting.underwatertreasures.pirate_flag_painting.title": "Pirate Flag Painting",
-      "painting.underwatertreasures.pirate_flag_painting.author": "Antarktidov"
+      "painting.underwatertreasures.pirate_flag_painting.author": "Antarktidov",
+      "item.underwatertreasures.pirate_flag": "Pirate Flag"
     }
   },
   "metadata": {

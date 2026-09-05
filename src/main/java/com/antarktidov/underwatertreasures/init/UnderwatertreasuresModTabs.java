@@ -25,5 +25,6 @@ public class UnderwatertreasuresModTabs {
 				tabData.accept(UnderwatertreasuresModItems.YELLOW_STAR.get());
 				tabData.accept(UnderwatertreasuresModItems.CORAL_STAR_2.get());
 				tabData.accept(UnderwatertreasuresModItems.YELLOW_STAR_2.get());
+				tabData.accept(UnderwatertreasuresModItems.PIRATE_FLAG.get());
 			}).build());
 }

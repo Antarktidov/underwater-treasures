@@ -1,0 +1,7 @@
+{
+  "parent": "underwatertreasures:custom/pirate_flag",
+  "textures": {
+    "0": "underwatertreasures:block/texture3",
+    "particle": "underwatertreasures:item/texture3"
+  }
+}

@@ -23,6 +23,7 @@ public class UnderwatertreasuresModItems {
 	public static final DeferredItem<Item> YELLOW_STAR;
 	public static final DeferredItem<Item> CORAL_STAR_2;
 	public static final DeferredItem<Item> YELLOW_STAR_2;
+	public static final DeferredItem<Item> PIRATE_FLAG;
 	static {
 		GOLDEN_COIN = register("golden_coin", GoldenCoinItem::new);
 		SILVER_COIN = register("silver_coin", SilverCoinItem::new);
@@ -32,6 +33,7 @@ public class UnderwatertreasuresModItems {
 		YELLOW_STAR = register("yellow_star", YellowStarItem::new);
 		CORAL_STAR_2 = register("coral_star_2", CoralStar2Item::new);
 		YELLOW_STAR_2 = register("yellow_star_2", YellowStar2Item::new);
+		PIRATE_FLAG = register("pirate_flag", PirateFlagItem::new);
 	}
 
 	// Start of user code block custom items
