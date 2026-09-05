@@ -1,0 +1,13 @@
+{
+  "asset_id": "underwatertreasures:pirate_flag_painting",
+  "height": 1,
+  "width": 2,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.underwatertreasures.pirate_flag_painting.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.underwatertreasures.pirate_flag_painting.author"
+  }
+}

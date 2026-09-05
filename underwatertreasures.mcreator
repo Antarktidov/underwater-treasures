@@ -125,11 +125,27 @@
           "src/main/java/com/antarktidov/underwatertreasures/item/YellowStar2Item.java"
         ]
       }
+    },
+    {
+      "name": "PirateFlagPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pirate_flag_painting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underwatertreasures/painting_variant/pirate_flag_painting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "PAINTING_VARIANTS:minecraft:placeable": [
+      "~PirateFlagPainting@CUSTOM:PirateFlagPainting"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -141,7 +157,9 @@
       "item.underwatertreasures.coral_star": "Coral Star",
       "item.underwatertreasures.yellow_star": "Yellow Star",
       "item.underwatertreasures.coral_star_2": "Coral Star 2",
-      "item.underwatertreasures.yellow_star_2": "Yellow Star 2"
+      "item.underwatertreasures.yellow_star_2": "Yellow Star 2",
+      "painting.underwatertreasures.pirate_flag_painting.title": "Pirate Flag Painting",
+      "painting.underwatertreasures.pirate_flag_painting.author": "Antarktidov"
     }
   },
   "metadata": {

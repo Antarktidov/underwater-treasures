@@ -1,0 +1,11 @@
+{
+  "_fv": 89,
+  "_type": "painting",
+  "definition": {
+    "texture": "pirate_flag",
+    "width": 32,
+    "height": 16,
+    "title": "Pirate Flag Painting",
+    "author": "Antarktidov"
+  }
+}
