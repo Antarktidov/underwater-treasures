@@ -51,6 +51,7 @@ public class UnderwatertreasuresMod {
 		modEventBus.addListener(this::registerNetworking);
 		UnderwatertreasuresModItems.REGISTRY.register(modEventBus);
 		UnderwatertreasuresModTabs.REGISTRY.register(modEventBus);
+		UnderwaterTreasureSpawner.register();
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
