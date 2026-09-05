@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "minecraft:gold_nugget"
+  },
+  "result": {
+    "id": "underwatertreasures:golden_coin",
+    "count": 1
+  }
+}

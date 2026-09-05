@@ -151,6 +151,30 @@
           "src/main/resources/assets/underwatertreasures/items/pirate_flag.json"
         ]
       }
+    },
+    {
+      "name": "GoldCoin",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underwatertreasures/recipe/gold_coin.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldNuggetFromGoldCoin",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_nugget_from_gold_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/underwatertreasures/recipe/gold_nugget_from_gold_coin.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
