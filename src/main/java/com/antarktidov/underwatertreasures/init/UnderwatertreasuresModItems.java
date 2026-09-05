@@ -10,10 +10,7 @@ import net.minecraft.world.item.Item;
 
 import java.util.function.Function;
 
-import com.antarktidov.underwatertreasures.item.WhiteBusyItem;
-import com.antarktidov.underwatertreasures.item.SilverCoinItem;
-import com.antarktidov.underwatertreasures.item.GoldenCoinItem;
-import com.antarktidov.underwatertreasures.item.CoralBusyItem;
+import com.antarktidov.underwatertreasures.item.*;
 import com.antarktidov.underwatertreasures.UnderwatertreasuresMod;
 
 public class UnderwatertreasuresModItems {
@@ -22,11 +19,19 @@ public class UnderwatertreasuresModItems {
 	public static final DeferredItem<Item> SILVER_COIN;
 	public static final DeferredItem<Item> WHITE_BUSY;
 	public static final DeferredItem<Item> CORAL_BUSY;
+	public static final DeferredItem<Item> CORAL_STAR;
+	public static final DeferredItem<Item> YELLOW_STAR;
+	public static final DeferredItem<Item> CORAL_STAR_2;
+	public static final DeferredItem<Item> YELLOW_STAR_2;
 	static {
 		GOLDEN_COIN = register("golden_coin", GoldenCoinItem::new);
 		SILVER_COIN = register("silver_coin", SilverCoinItem::new);
 		WHITE_BUSY = register("white_busy", WhiteBusyItem::new);
 		CORAL_BUSY = register("coral_busy", CoralBusyItem::new);
+		CORAL_STAR = register("coral_star", CoralStarItem::new);
+		YELLOW_STAR = register("yellow_star", YellowStarItem::new);
+		CORAL_STAR_2 = register("coral_star_2", CoralStar2Item::new);
+		YELLOW_STAR_2 = register("yellow_star_2", YellowStar2Item::new);
 	}
 
 	// Start of user code block custom items
