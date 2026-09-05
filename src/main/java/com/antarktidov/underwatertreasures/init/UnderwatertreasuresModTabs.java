@@ -19,5 +19,6 @@ public class UnderwatertreasuresModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.underwatertreasures.treasures")).icon(() -> new ItemStack(UnderwatertreasuresModItems.GOLDEN_COIN.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(UnderwatertreasuresModItems.GOLDEN_COIN.get());
 				tabData.accept(UnderwatertreasuresModItems.SILVER_COIN.get());
+				tabData.accept(UnderwatertreasuresModItems.WHITE_BUSY.get());
 			}).build());
 }

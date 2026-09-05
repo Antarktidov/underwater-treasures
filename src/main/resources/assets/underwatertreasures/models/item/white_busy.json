@@ -1,0 +1,7 @@
+{
+  "parent": "underwatertreasures:custom/busy",
+  "textures": {
+    "0": "underwatertreasures:block/busy",
+    "particle": "underwatertreasures:item/busy"
+  }
+}

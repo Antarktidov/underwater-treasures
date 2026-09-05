@@ -39,6 +39,20 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "WhiteBusy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_busy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/underwatertreasures/items/white_busy.json",
+          "src/main/java/com/antarktidov/underwatertreasures/item/WhiteBusyItem.java",
+          "src/main/resources/assets/underwatertreasures/models/item/white_busy.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -49,7 +63,8 @@
     "en_us": {
       "item.underwatertreasures.golden_coin": "Golden Coin",
       "item.underwatertreasures.silver_coin": "Silver Coin",
-      "item_group.underwatertreasures.treasures": "Treasures"
+      "item_group.underwatertreasures.treasures": "Treasures",
+      "item.underwatertreasures.white_busy": "White Busy"
     }
   },
   "metadata": {
