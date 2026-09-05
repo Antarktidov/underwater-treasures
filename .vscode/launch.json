@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - underwater-treasures",
+        "order": 0
+      },
+      "projectName": "underwater-treasures",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\my-minecraft-mods\\underwater-treasures\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\my-minecraft-mods\\underwater-treasures\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmcreator%%D:\\my-minecraft-mods\\underwater-treasures\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - underwater-treasures",
+        "order": 1
+      },
+      "projectName": "underwater-treasures",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\my-minecraft-mods\\underwater-treasures\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\my-minecraft-mods\\underwater-treasures\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmcreator%%D:\\my-minecraft-mods\\underwater-treasures\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
