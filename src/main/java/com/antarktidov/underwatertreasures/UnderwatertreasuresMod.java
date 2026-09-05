@@ -1,6 +1,5 @@
 package com.antarktidov.underwatertreasures;
 
-import com.antarktidov.underwatertreasures.block.cusom.ModBlocks;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -52,7 +51,6 @@ public class UnderwatertreasuresMod {
 		modEventBus.addListener(this::registerNetworking);
 		UnderwatertreasuresModItems.REGISTRY.register(modEventBus);
 		UnderwatertreasuresModTabs.REGISTRY.register(modEventBus);
-		ModBlocks.REGISTRY.register(modEventBus);
 		UnderwaterTreasureSpawner.register();
 		// Start of user code block mod init
 		// End of user code block mod init
